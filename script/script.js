@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function()
 {
     
     function fetchRandomName() {
-        const nameApi = document.getElementById('name'); // Ensure this line selects the correct element
+        const nameApi = document.getElementById('name');
         fetch('https://randomuser.me/api/')
         .then(response => {
             if (!response.ok) {
